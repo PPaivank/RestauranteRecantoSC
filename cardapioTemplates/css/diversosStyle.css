@@ -1,0 +1,128 @@
+:root {
+    --DarkerGray: #1b1d1d;
+    --Gray: #3F4545;
+    --MediumGray: #464a4a;
+    --DarkBlue: #123B79;
+    --LightBlue: #18A5A7;
+    --LightGray: #D9D9D9;
+    --LighterGray: #eceaea;
+    --White: white;
+    --OrangeSelect: rgb(255, 166, 0);
+}
+
+
+.navbar {
+    background-color: var(--DarkBlue);
+ }
+ 
+ html,body {
+    user-select: none;
+ }
+
+
+.nav-link {
+    cursor: pointer;
+}
+
+
+#dropdownCardapio, #dropdownBebidas
+{
+    border: none;
+    outline: none;
+    background-color: var(--LightGray);
+}
+
+#LICardapio, #LIBebidas {
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+}
+#LICardapio:hover,
+#LIBebidas:hover {
+    font-weight: 550;
+    background-color: var(--OrangeSelect);
+
+}
+#shortcutsHeader {
+    font-weight: 100;
+}
+
+#shortcutsHeader:hover {
+    transform: scale(1.03);
+    font-weight: 550;
+}
+
+#shortcutsHeader img {
+    vertical-align: top;
+    height: 20px;
+    width: 20px;
+}
+
+.buttonGoBack {
+    height: 40px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.buttonGoBack button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 2.5vmin;
+    white-space: normal;
+    height: 80%;
+    width: 70%;
+    border-radius: 3px;
+    color: black;
+    background-color: #FFC107;
+}
+
+.buttonGoBack button:hover {
+    transform: scale(1.1);
+}
+a {
+    text-decoration: none;
+    color: var(--MediumGray);
+}
+
+
+/* Icons lanches e pratos header */
+
+.col img {
+    width: 70px;
+    height: 75px;
+    padding-top: 5px;
+}
+
+#colPratos,
+#colLanches,
+#colDiversos {
+    cursor: pointer;
+}
+
+#diversosIMG {
+    border-bottom: 1px solid orange;
+}
+
+#row1 {
+    padding-bottom: 20px;
+}
+
+.card-title {
+    font-weight: 500;
+    color: rgb(130, 81, 37);
+}
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
