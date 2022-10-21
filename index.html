@@ -1,0 +1,190 @@
+<!--Developed by Paulo Paiva (I.T Dev HMSC) on October 2022-->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Restaurante Recanto </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesheets/mainStyle.css">
+  <link rel="icon" href="imgs/logos/LogoRecanto.png">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark py-lg-4 fixed-top">
+
+    <a class="navbar-brand" href="#"> <img src="imgs/logos/LogoRecanto.png" width=25 height=25
+        class="d-inline-block-align-top"></a><span class="text-white">Restaurante Recanto &nbsp;&nbsp; </span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+
+
+      <ul class="navbar-nav ml-sm-3">
+        <li class="nav-item">
+          <a class="nav-link text-white" id="shortcutsHeader" href="./index.html">INÍCIO </a>
+        </li>
+
+        <!--Drop down-->
+        <li class="dropdown">
+          <a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" id="shortcutsHeader"> CARDÁPIO </a>
+          <ul class="dropdown-menu text-center" role="menu" id="dropdownCardapio">
+            <li id="LICardapio" onclick="location.href='./cardapioTemplates/html/pratosIndex.html'"><a class="text-dark"
+                href="./cardapioTemplates/html/pratosIndex.html"> PRATOS </a></li>
+            <li id="LICardapio" onclick="location.href='./cardapioTemplates/html/lanchesIndex.html'"><a
+                class="text-dark" href="./cardapioTemplates/html/lanchesIndex.html"> LANCHES </a></li>
+            <li id="LICardapio" onclick="location.href='./cardapioTemplates/html/sopasIndex.html'"><a class="text-dark"
+                href="./cardapioTemplates/html/sopasIndex.html"> SOPAS </a></li>
+          </ul>
+        </li>
+
+
+        <!--Drop down-->
+        <li class="dropdown">
+          <a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" id="shortcutsHeader"> BEBIDAS </a>
+          <ul class="dropdown-menu text-center" role="menu" id="dropdownBebidas">
+            <li id="LIBebidas" onclick="location.href='./bebidasTemplates/html/aguasIndex.html'"><a class="text-dark"
+                href="./bebidasTemplates/html/aguasIndex.html"> ÁGUAS </a></li>
+            <li id="LIBebidas" onclick="location.href='./bebidasTemplates/html/sucosIndex.html'"><a class="text-dark"
+                href="./bebidasTemplates/html/sucosIndex.html"> SUCOS </a></li>
+            <li id="LIBebidas" onclick="location.href='./bebidasTemplates/html/refrisIndex.html'"><a class="text-dark"
+                href="./bebidasTemplates/html/refrisIndex.html"> REFRIGERANTES </a></li>
+            <li id="LIBebidas" onclick="location.href='./bebidasTemplates/html/cervejasIndex.html'"><a class="text-dark"
+                href="./bebidasTemplates/html/cervejasIndex.html"> CERVEJAS </a></li>
+            <li id="LIBebidas" onclick="location.href='./bebidasTemplates/html/vinhosIndex.html'"><a class="text-dark"
+                href="./bebidasTemplates/html/vinhosIndex.html"> VINHOS </a></li>
+            <li id="LIBebidas" onclick="location.href='./bebidasTemplates/html/aperitivosIndex.html'"><a
+                class="text-dark" href="./bebidasTemplates/html/aperitivosIndex.html">APERITIVOS </a></li>
+            <li id="LIBebidas" onclick="location.href='./bebidasTemplates/html/drinksIndex.html'"><a class="text-dark"
+                href="./bebidasTemplates/html/drinksIndex.html"> DRINKS </a></li>
+          </ul>
+        </li>
+      </ul>
+
+
+      <!-- UL shortcut header -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item" id="shortcutsHeader"> <a class="nav-link text-white" href="reservarMesa/index.html"> <img
+              src="imgs/reservarMesa/mesaIcon(2).png"> MESA </a></li>
+        <li class="nav-item" id="shortcutsHeader"><a class="nav-link text-white"> <img
+              src="imgs/pesquisar/pesquisaIcon.png"> PESQUISAR </a></li>
+        <li class="nav-item" id="shortcutsHeader"><a class="nav-link text-white"> <img src="imgs/conta/contaIcon.png">
+            MINHA CONTA </a></li>
+        <li class="nav-item" id="shortcutsHeader"><a class="nav-link text-white"> <img
+              src="imgs/pedidos/pedidosIcon.png"> PEDIDOS </a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+
+  <div class="container p-0">
+    <div class="content p-0">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imgs/pratos/imgs-carousel/1.mainImage.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/pratos/imgs-carousel/2.feijoada.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imgs/pratos/imgs-carousel/3.prato.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+
+    <div class="main">
+      <div class="tituloDestaques">
+        <h3 class="text-uppercase p-2 text-dark"> Destaques da semana </h3>
+        <p class="p-2"> Confira os nossos itens em destaque nessa semana! </p>
+      </div>
+      <div class="boxesCards">
+        <div class="card d-flex justify-content-center align-items-center border-0" style="width: 100%;">
+          <div class="divImg">
+            <img src="./imgs/pratos/imgs-carousel/5.trufas.jpg" class="card-img-top">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">CHOCOLATE SPINASSI</h5>
+            <a href="#" class="btn btn-block btn-warning"> R$ 15,00 </a>
+          </div>
+        </div>
+
+
+        <div class="card d-flex justify-content-center align-items-center border-0" style="width: 100%;">
+          <div class="divImg">
+            <img src="./imgs/pratos/imgs-carousel/CamposDunkel.png" class="card-img-top">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">CERVEJA CAMPOS DUNKEL</h5>
+            <a href="#" class="btn btn-block btn-warning"> R$ 30,00 </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="main2">
+      <h3 class="text-white text-uppercase p-2 text-center">Contato </h3>
+      <h5 class="text-white font-weight-bold p-2"> Informações e reservas </h5>
+      <p class="p-2 text-white"> reservas@recantosaocristovao.com.br </p>
+      <p class="p-2 font-weight-bold text-white"> Campos do Jordão
+      <p>
+      <p class="p-2 text-white"> (12) 3662-2888</p>
+      <p class="p-2 text-white"> (12) 3662-2889</p>
+      <p class="p-2 text-white"> (12) 99246-8736 (WhatsApp) </p>
+      <br><br>
+      <p class="p-2 font-weight-bold text-white"> São Paulo </p>
+      <p class="p-2 text-white"> (11) 2029-7615 </p>
+      <p class="p-2 text-white"> (11) 2029-7215 </p>
+      <p class="p-2 text-white"> (11) 98934-1316 (WhatsApp) </p>
+      <div class="maps">
+        <h3 class="text-white text-uppercase p-2 text center"> Localização </h3>
+        <iframe
+          src="
+        https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.012737130657!2d-45.6147989250698!3d-22.764908579355136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc62126526e84f%3A0x84db673c51f1c52b!2sHotel%20Recanto%20S%C3%A3o%20Cristov%C3%A3o!5e0!3m2!1spt-BR!2sbr!4v1666347761315!5m2!1spt-BR!2sbr"
+          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <p class="text-white p-2">
+          O Hotel São Cristóvão fica a 800 metros do Portal da cidade de Campos do Jordão e a 50 metros do Centro de
+          Lazer Tarundu.
+        </p>
+        <p class="text-white p-2">
+          Rodovia Floriano Rodrigues Pinheiro, km 45
+          Campos do Jordão – SP
+        </p>
+      </div>
+    </div>
+    
+    <!-- Footer  Copyright-->
+    <footer class="page-footer font-small blue">
+      <div class="footer-copyright text-center py-3 text-white">© 2022 Restaurante Recanto - HMSC
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/jquery-3.3.1.slim.min.js"> </script>
+  <script src="js/popper.min.js"> </script>
+  <script src="js/bootstrap.min.js"> </script>
+  <script>
+    $('.carousel').carousel({
+      interval: 400 * 10
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../css/lanchesStyle.css">
+    <link rel="stylesheet" href="../../stylesheets/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="../../imgs/logos/LogoRecanto.png">
+    <title>Restaurante Recanto - Lanches </title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4 p">
+        <a class="navbar-brand" href="#"><img src="../../imgs/logos/LogoRecanto.png" width=25 height=25 
+            class="d-inline-block-align-top"></a><span class="text-white">Restaurante Recanto&nbsp;&nbsp; </span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+  
+  
+            <ul class="navbar-nav ml-sm-3">
+                <li class="nav-item">
+                    <a class="nav-link text-white" id="shortcutsHeader" href="../../index.html">INÍCIO </a>
+                  </li>
+  
+  
+            <li class="dropdown">
+              <a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" id="shortcutsHeader"> CARDÁPIO </a>
+              <ul class="dropdown-menu text-center" role="menu" id="dropdownCardapio">
+                <li id="LICardapio" onclick="location.href='../../cardapioTemplates/html/pratosIndex.html'"><a class="text-dark" href="../../cardapioTemplates/html/pratosIndex.html"> PRATOS </a></li>
+                <li id="LICardapio" onclick="location.href='../../cardapioTemplates/html/lanchesIndex.html'"><a class="text-dark" href="../../cardapioTemplates/html/lanchesIndex.html"> LANCHES </a></li>
+                <li id="LICardapio" onclick="location.href='../../cardapioTemplates/html/sopasIndex.html'"><a class="text-dark" href="../../cardapioTemplates/html/sopasIndex.html"> SOPAS </a></li>       
+             </ul>
+            </li>
+  
+  
+             <li class="dropdown">
+              <a class="nav-link text-white dropdown-toggle" data-toggle="dropdown" id="shortcutsHeader"> BEBIDAS </a>
+              <ul class="dropdown-menu text-center" role="menu" id="dropdownBebidas">
+                <li id="LIBebidas" onclick="location.href='../../bebidasTemplates/html/aguasIndex.html'"><a class="text-dark" href="../../bebidasTemplates/html/aguasIndex.html"> ÁGUAS </a></li>
+                <li id="LIBebidas" onclick="location.href='../../bebidasTemplates/html/sucosIndex.html'"><a class="text-dark" href="../../bebidasTemplates/html/sucosIndex.html"> SUCOS </a></li>
+                <li id="LIBebidas" onclick="location.href='../../bebidasTemplates/html/refrisIndex.html'"><a class="text-dark" href="../../bebidasTemplates/html/refrisIndex.html"> REFRIGERANTES </a></li>       
+                <li id="LIBebidas" onclick="location.href='../../bebidasTemplates/html/cervejasIndex.html'"><a class="text-dark" href="../../bebidasTemplates/html/cervejasIndex.html"> CERVEJAS </a></li>       
+                <li id="LIBebidas" onclick="location.href='../../bebidasTemplates/html/vinhosIndex.html'"><a class="text-dark" href="../../bebidasTemplates/html/vinhosIndex.html"> VINHOS </a></li>       
+                <li id="LIBebidas" onclick="location.href='../../bebidasTemplates/html/aperitivosIndex.html'"><a class="text-dark" href="../../bebidasTemplates/html/aperitivosIndex.html">APERITIVOS </a></li>       
+                <li id="LIBebidas" onclick="location.href='../../bebidasTemplates/html/drinksIndex.html'"><a class="text-dark" href="../../bebidasTemplates/html/drinksIndex.html"> DRINKS </a></li>       
+             </ul>
+            </li>
+          </ul>
+  
+  
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item" id="shortcutsHeader"> <a class="nav-link text-white"> <img src="../../imgs/reservarMesa/mesaIcon(2).png"> MESA </a></li>
+            <li class="nav-item" id="shortcutsHeader"><a class="nav-link text-white"> <img src="../../imgs/pesquisar/pesquisaIcon.png"> PESQUISAR </a></li>
+            <li class="nav-item" id="shortcutsHeader"><a class="nav-link text-white"> <img src="../../imgs/conta/contaIcon.png"> MINHA CONTA </a></li>
+            <li class="nav-item" id="shortcutsHeader"><a class="nav-link text-white"> <img src="../../imgs/pedidos/pedidosIcon.png"> PEDIDOS </a></li>
+          </ul>
+  
+          </div>
+      </nav>
+    <!-- Button DIV  -->
+    <div class="buttonGoBack">
+        <button onclick="location.href='../../index.html'"> Voltar </button>
+    </div>
+    <!-- Button DIV  -->
+
+    <!-- Container -- Body -->
+    <div class="container d-flex flex-column justify-content-center align-items-center">
+        <div class="row d-flex justify-content-center align-items-center text-center" id="row1">
+            <div class="col d-flex flex-column" id="colPratos"><img src="../../imgs/pratosOrange.png" id="forkIMG" onclick="location.href='../html/pratosIndex.html'"></div>
+            <div class="col d-flex flex-column" id="colLanches"><img src="../../imgs/lanchesOrange.png" id="burguerIMG" onclick="location.href='../html/lanchesIndex.html'"></div>
+        </div>
+        <div class="row">
+
+
+            <!-- Prato 1 -->
+            <div class="col-sm-4 py-2" id="boxLanche1">
+                <div class="card card-body h-100">
+                    <img class="card-img-top" src="../../imgs/lanches/queijo-quente.fw.png" alt="" id="imgLanche1">
+                    <div class="card-body">
+                        <h5 class="card-title" id="TituloLanche1"> QUEIJO QUENTE </h5>
+                        <p class="card-text" id="descricacaoLanche1"> Sanduíche feito com recheio de queijo em pão francês. </p>
+                        <a class="btn btn-warning btn-sm" id="precoLanche1"> R$ 12,00 </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Prato 2 -->
+            <div class="col-sm-4 py-2" id="boxLanche2">
+                <div class="card card-body h-100">
+                    <img class="card-img-top" src="../../imgs/lanches/misto-quente.fw.png" alt="" id="imgLanche2">
+                    <div class="card-body">
+                        <h5 class="card-title" id="TituloLanche2"> MISTO QUENTE </h5>
+                        <p class="card-text" id="descricacaoLanche2"> Sanduíche quente, preparado à base de queijo e presunto. </p>
+                        <a class="btn btn-warning btn-sm" id="precoLanche2"> R$ 12,00 </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Prato 3 -->
+            <div class="col-sm-4 py-2" id="boxLanche3">
+                <div class="card card-body h-100">
+                    <img class="card-img-top" src="../../imgs/lanches/batata-frita.fw.png" alt="" id="imgLanche3">
+                    <div class="card-body">
+                        <h5 class="card-title" id="TituloLanche3">BATATA FRITA PEQUENA </h5>
+                        <p class="card-text" id="descricacaoLanche3"> 300gr </p>
+                        <a class="btn btn-warning btn-sm" id="precoLanche3"> R$ 15,00 </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Prato 4 -->
+            <div class="col-sm-4 py-2" id="boxLanche4">
+                <div class="card card-body h-100">
+                    <img class="card-img-top" src="../../imgs/lanches/batata-frita.fw.png" alt="" id="imgLanche4">
+                    <div class="card-body">
+                        <h5 class="card-title" id="TituloLanche4">BATATA FRITA MÉDIA</h5>
+                        <p class="card-text" id="descricacaoLanche4"> 500gr </p>
+                        <a class="btn btn-warning btn-sm" id="precoLanche4"> R$ 20,00 </a>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Prato 5 -->
+            <div class="col-sm-4 py-2" id="boxLanche5">
+                <div class="card card-body h-100">
+                    <img class="card-img-top" src="../../imgs/lanches/batata-frita.fw.png" alt="" id="imgLanche5">
+                    <div class="card-body">
+                        <h5 class="card-title" id="TituloLanche5">BATATA FRITA GRANDE</h5>
+                        <p class="card-text" id="descricacaoLanche5"> 700gr </p>
+                        <a class="btn btn-warning btn-sm" id="precoLanche5"> R$ 25,00 </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../../js/jquery-3.3.1.slim.min.js"> </script>
+<script src="../../js/popper.min.js"> </script>
+<script src="../../js/bootstrap.min.js"> </script>
+</body>
+
+</html>
